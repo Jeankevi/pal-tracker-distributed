@@ -12,6 +12,7 @@ import test.pivotal.pal.tracker.support.HttpClient;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Fail.fail;
+import static test.pivotal.pal.tracker.support.MapBuilder.envMapBuilder;
 import static test.pivotal.pal.tracker.support.MapBuilder.jsonMapBuilder;
 
 public class FlowTest {
